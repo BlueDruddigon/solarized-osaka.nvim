@@ -17,7 +17,7 @@ function M.get(c, opts)
     BlinkCmpSignatureHelpActiveParameter = { fg = c.orange, bg = c.none },
     -- ISSUE: passing c.none causes menu to be invisible
     -- BlinkCmpMenu = { fg = c.base01, bg = c.none },
-    BlinkCmpMenu                         = { fg = c.base01, bg = c.base02 },
+    BlinkCmpMenu                         = { fg = c.base01, bg = c.none },
     BlinkCmpKindDefault                  = { fg = c.base01, bg = c.none }, -- Default fallback
     BlinkCmpKindCodeium                  = { fg = c.cyan500, bg = c.none },
     BlinkCmpKindCopilot                  = { fg = c.cyan500, bg = c.none },
